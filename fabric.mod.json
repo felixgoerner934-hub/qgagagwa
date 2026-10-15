@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "samurai_sunset",
+  "version": "${version}",
+  "name": "Samurai Sunset",
+  "description": "Ersetzt Titelbildschirm-Panorama, Ladebildschirm und Splash-Texte durch einen Samurai-Sonnenuntergang-Look.",
+  "authors": ["kindmops"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/samurai_sunset/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.samuraisunset.SamuraiSunsetMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.1.2",
+    "fabric-api": "*",
+    "java": ">=25"
+  }
+}
