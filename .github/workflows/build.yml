@@ -16,10 +16,10 @@ jobs:
           distribution: temurin
           java-version: 25
 
-      - name: Gradle 9.4 einrichten
+      - name: Gradle einrichten
         uses: gradle/actions/setup-gradle@v4
         with:
-          gradle-version: 9.4
+          gradle-version: current
 
       - name: Build
         run: gradle build --no-daemon
